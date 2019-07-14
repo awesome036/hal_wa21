@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>PW52A335-75077-02:黒澤治</title>
+	<style>
+		body {
+			position: relative;
+			height: 100vh;
+			
+			cursor: none;
+		}
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 32px;
+			height: 32px;
+		}
+		input {
+			cursor: none;
+		}
+	</style>
+</head>
+<body>
+	<img src="images/cursor.png" alt="カーソル" id="cursor">
+	<input type="button" value="追加" id="addStr">
+	<input type="button" value="削除" id="deleteStr">
+	<div id="textArea"></div>
+	<hr>
+	<input type="text" name="msg" id="msg">
+	<input type="submit" value="送信" id="submit">
+	黒<input type="radio" name="color" value="black">
+	赤<input type="radio" name="color" value="red">
+	青<input type="radio" name="color" value="blue">
+	黄<input type="radio" name="color" value="yellow">
+	<div id="msgArea"></div>
+	<script src="main.js"></script>
+</body>
+</html>

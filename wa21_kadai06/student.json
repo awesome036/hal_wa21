@@ -1,0 +1,14 @@
+{
+  "persons": [
+    {
+		"name": "谷勝",
+		"activity": "学長",
+		"comment": "素晴らしい！"
+	},
+	{
+		"name": "鶴保",
+		"activity": "校長",
+		"comment": "マジリスペクト！"
+	}
+  ]
+}
